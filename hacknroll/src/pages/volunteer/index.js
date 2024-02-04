@@ -1,3 +1,5 @@
 export default function Index() {
-  return <h1>this is volunteer portal</h1>;
+  return (
+    <div className="main-content-with-navbar">this is volunteer portal</div>
+  );
 }
