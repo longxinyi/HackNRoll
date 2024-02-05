@@ -17,7 +17,7 @@ export default function Index() {
 
       alert("Data added to Firestore DB!");
     }
-  }
+  };
 
   return (
     <div className="ml-96">
@@ -57,10 +57,7 @@ export default function Index() {
           />
         </div>
 
-        <button 
-          className="text-black"
-          type="submit"
-        >
+        <button className="text-black" type="submit">
           Submit
         </button>
       </form>
