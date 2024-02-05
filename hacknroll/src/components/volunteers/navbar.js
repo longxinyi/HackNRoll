@@ -15,10 +15,10 @@ const VolunteerNavBar = () => {
           </div>
         </div>
         <div className="p-2">
-          <Navigation href="" text="Edit Profile" urlKeyword="profile" />
+          <Navigation href="/" text="Edit Profile" urlKeyword="profile" />
         </div>
         <div className="p-2">
-          <Navigation href="" text="text" urlKeyword="text" />
+          <Navigation href="/viewAllCertificates" text="View Certificates" urlKeyword="certificates" />
         </div>
       </div>
       <hr className="border-border-primary w-full p-2"></hr>
