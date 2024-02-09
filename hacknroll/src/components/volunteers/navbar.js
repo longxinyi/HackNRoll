@@ -34,7 +34,10 @@ const VolunteerNavBar = () => {
           />
         </div>
         <div className="p-2">
-          <Navigation href="" text="text" urlKeyword="text" />
+          <Navigation 
+            href="/volunteer/opportunities" 
+            text="Volunteer Opportunities" 
+            urlKeyword="volunteerOpportunities" />
         </div>
         <div className="p-2">
           <Navigation href="" text="text" urlKeyword="text" />

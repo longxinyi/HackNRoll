@@ -76,15 +76,24 @@ const EnrollmentForm = ({ onSubmit }) => {
                 multiple
               >
                 <MenuItem value="firstAid">First Aid</MenuItem>
-                {/* ... other skills */}
               </Select>
             )}
           />
         </FormControl>
 
-        <Button type="submit" variant="contained" color="primary" sx={{ m: 1 }}>
-          Enroll
-        </Button>
+        <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
+         <Button type="submit" variant="contained" sx={{
+            backgroundColor: 'primary.main',
+            color: 'blue',
+            '&:hover': {
+              backgroundColor: 'primary.dark',
+              color: 'white',
+            },
+            m: 1
+          }}>
+            Enroll
+          </Button>
+        </Box>
       </Box>
     </form>
   );
